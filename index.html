@@ -1,25 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rashmi's Data Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #3f51b5;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #3f51b5;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #3f51b5;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+    }
+    .project-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #222;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f0f0f0;
+      font-size: 0.9rem;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.8rem;
+      background-color: #3f51b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .button:hover {
+      background-color: #303f9f;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px;">
-  <h1>Your Name</h1>
-  <p>Email: kulkarnirashmi0522@gmail.com | GitHub: <a href="https://github.com/RkulCoding">RkulCoding</a></p>
+<body>
+  <header>
+    <h1>Rashmi Kulkarni</h1>
+    <p>Aspiring Data Analyst | SQL • Python • Power BI • Excel</p>
+  </header>
 
-  <h2>About Me</h2>
-  <p>Aspiring data analyst with experience in Python, SQL, Power BI, and real-world data projects.</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Customer Churn Prediction:</strong> Built a machine learning model using Python to identify customers likely to leave.</li>
-    <li><strong>Credit Card Fraud Dashboard:</strong> Interactive dashboard using Python and React.js to visualize fraud patterns.</li>
-    <li><strong>Crypto Time Series Forecasting:</strong> Predicted Bitcoin price trends using ARIMA and LSTM models.</li>
-  </ul>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate data enthusiast with hands-on experience in data analysis, visualization, and machine learning. I enjoy transforming raw data into actionable insights and building dashboards that support decision-making.</p>
+  </section>
 
-  <h2>Skills</h2>
-  <p>Python, SQL, Power BI, Excel, Data Cleaning, Visualization</p>
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <div class="project-title">Customer Churn Prediction</div>
+      <p>Built a predictive model using Python to identify at-risk customers. Cleaned data with Pandas, applied ML algorithms using Scikit-learn, and visualized insights in Power BI.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Credit Card Fraud Detection Dashboard</div>
+      <p>Created a fraud monitoring tool using React.js and Python. Included real-time transaction insights with interactive charts using Power BI and Chart.js.</p>
+    </div>
+
+    <div class="project">
+      <div class="project-title">Cryptocurrency Time Series Analysis</div>
+      <p>Used ARIMA and LSTM to forecast Bitcoin prices. Enhanced with sentiment analysis and visualized results using Plotly.</p>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>9112641921</h2>
+    <p>Email: kulkarnirashmi0522@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/RkulCoding</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/rashmi-kulkarni-88a56a229/</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Rashmi Kulkarni | Data Analyst Portfolio
+  </footer>
 </body>
 </html>
